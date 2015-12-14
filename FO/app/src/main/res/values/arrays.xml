@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="eventType_array">
+        <item>Public</item>
+        <item>Friends Only</item>
+        <item>Group</item>
+        <item>Private</item>
+    </string-array>
+</resources>

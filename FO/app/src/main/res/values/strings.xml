@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">FO</string>
+    <string name="title_activity_main">FO</string>
+    <string name="dialog_filter_results">Filter Results</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="mainactivity_refreshed">Refreshed</string>
+    <string name="account">Account</string>
+    <string name="options">Options</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_about">About</string>
+    <string name="text_about">FO : Version 1.0 (2015 Dec)\nWritten by : MinHyung Kang\nContact : Min.Hyung.Kang.15@dartmouth.edu</string>
+    <string name="title_help">Help</string>
+    <string name="text_help">This application can be used to post events which you can share with your friends, groups, or even everyone using the application. Even though the original intention is to arrange meals, it can be used for other purposes as well (e.g. announcing events). If you experience an error or difficulty with the application, please contact Min.Hyung.Kang.15@dartmouth.edu.</string>
+    <string name="registration_success">Registration Successful</string>
+    <string name="registration_fail">"Registration Failed : "</string>
+    <string name="logout_success">Logout Successful</string>
+    <string name="login_success">Login Successful</string>
+    <string name="login_fail">"Login Failed : "</string>
+    <string name="error">Error</string>
+    <string name="no_img_select">No Image Selected</string>
+    <string name="direction_map">You will be now directed to Google Map</string>
+    <string name="note">Note</string>
+    <string name="result_null">Result Null</string>
+    <string name="guide_select_location">Select Location on the Map (LongClick)</string>
+    <string name="empty_exception">Should not be empty.</string>
+    <string name="type_public">Public</string>
+    <string name="type_friends">Friends Only</string>
+    <string name="type_group">Group</string>
+    <string name="type_private">Private</string>
+    <string name="type_unknown">Unknown</string>
+    <string name="type_password">Type in Password!</string>
+    <string name="type_id">Type in ID!</string>
+    <string name="err_type_id">Type in ID!</string>
+    <string name="err_id_limit">ID should be between 6 and 15 chars.</string>
+    <string name="err_pwd">Type in Password!</string>
+    <string name="err_pwd_again">Type in Password Again!</string>
+    <string name="err_pwd_mismatch">Does not match!</string>
+    <string name="err_firstname">Type in First Name!</string>
+    <string name="err_lastname">Type in Last Name!</string>
+    <string name="msg_pwdChange">A message was sent to your mail</string>
+    <string name="msg_pwdChangeFail">Failed sending password change request</string>
+</resources>

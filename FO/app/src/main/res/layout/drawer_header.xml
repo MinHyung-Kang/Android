@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Code used to display the header image and text of the menu-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/dining_table_wider"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/garfield"
+        app:riv_border_color="#333333"
+        app:riv_border_width="3dip"
+        app:riv_corner_radius_bottom_right="30dp"
+        app:riv_corner_radius_top_left="30dp"
+        app:riv_oval="false" />
+
+    <TextView
+        android:id="@+id/tv_Drawer_Email"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="middle"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:text="danielkang92@gmail.com"
+        android:textColor="#7e8a93"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_Drawer_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_above="@+id/tv_Drawer_Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:ellipsize="middle"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:text="Daniel Kang"
+        android:textColor="#0d0d0d"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
